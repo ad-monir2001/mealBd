@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Meal BD</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="container mx-auto py-6 flex justify-between">
+      <h1 class="font-bold text-3xl text-gray-500">Tasty HUT</h1>
+      <button class="btn bg-yellow-400 font-bold text-xl text-black">
+        Sign Up
+      </button>
+    </header>
+    <main>
+      <section
+        class="hero bg-[url('/images/banner_1.png')] bg-gray-600 bg-blend-overlay"
+      >
+        <div class="text-center space-y-8 flex flex-col items-center py-40">
+          <h1 class="font-bold text-5xl text-white">
+            Taste Our Delicious <br />
+            Best Foods
+          </h1>
+          <p class="text-white">
+            There are many variations of passages of Lorem Ipsum available, but
+            the <br />
+            nu majority have suffered alteration in some form, by injected
+            humou.
+          </p>
+          <div class="flex relative">
+            <img src="images/search.svg" alt="" class="absolute left-2 top-3" />
+            <input
+              class="input w-96 px-9"
+              type="text"
+              placeholder="Search any food"
+            />
+            <button
+              class="absolute border-none right-0 btn bg-yellow-400 font-bold text-xl text-black"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
